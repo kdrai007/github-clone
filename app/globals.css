@@ -72,6 +72,16 @@ body,
   }
 }
 
+.hide-everything {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .hide-everything {
+    display: block;
+  }
+}
+
 @layer base {
   * {
     @apply border-border;
